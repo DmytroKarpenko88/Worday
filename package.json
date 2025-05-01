@@ -1,7 +1,7 @@
 {
   "name": "worday",
   "private": true,
-  "homepage": "https://dmytrokarpenko88.github.io/Worday/",
+  "homepage": "https://dmytrokarpenko88.github.io/Worday",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
